@@ -23,8 +23,8 @@ const SongDetail = ({ song }) => {
                 <h3>Please Select A Song</h3>
             </div>
         ) 
-    } else {
-        return (
+    } 
+          return (
             <div style={detailStyles}>
                 <h3>SONG DETAIL</h3>
                 <ul style={ul_styles}>
@@ -36,7 +36,6 @@ const SongDetail = ({ song }) => {
                 </div>
             </div>
         )
-    }
 }
 
 const mapStateToProps = state => {
